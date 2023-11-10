@@ -1,0 +1,113 @@
+#Intro {
+    height: 50rem;
+    width: 150vw;
+    max-width: 100rem;
+    margin-left: 0 auto;
+    margin-top: 0.5rem;
+    margin-right: 0;
+    overflow: hidden;
+    position: relative;
+}
+.bg {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    height: 100vh;
+}
+.class {
+    margin: 0px;
+    padding: 0px;
+}
+.Img {
+    
+    position: absolute;
+    top: -2px;
+    left: 40vw;
+    object-fit: cover;
+    height: 40rem;
+    max-width: 70rem;
+    margin-left: 25rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    padding-right: 4rem;
+
+}
+.introContent {
+    margin-top: 10rem;
+    margin-left: -40rem;
+    height: 80vh;
+    width: 100vw;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.hello {
+    font-size: 2rem;
+    font-weight: 100;
+
+}
+.introName {
+    color: yellow;
+}
+.introPara {
+    font-size: medium;
+    font-weight: 300;
+}
+.btn2 {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+.btn {
+    background: white;
+    margin: 1rem 0;
+    height: 2rem;
+    border-radius: 0.5rem;
+
+}
+@media screen and (max-width: 412px){
+    .bg {
+        margin-left: 0;
+    }
+    .Img {
+        height: 25rem;
+        margin-right: 2rem;
+        margin-left: 170px;
+        margin-top: 12rem;
+    }
+    .introContent {
+        width: 55%;
+        height: 70vh;
+        margin-left: -15rem;
+        
+    }
+    .introName {
+        font-size: 30px;
+    }
+    
+   
+    
+    .hello {
+        font-size: 3.5vw;
+    }
+    
+}
+@media screen and (max-width: 780px){
+    #works {
+        margin-left: 5rem;
+        
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    
+}
