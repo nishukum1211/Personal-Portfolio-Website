@@ -9,18 +9,18 @@
 } */
 
 
-section {
+#projects {
     
     margin: 0 auto;
     min-height: 100vh;
-    width: 150vw;
-    max-width: 60rem;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 0 1rem;
+    margin-top: 4vh;
     
 
 } 
@@ -38,21 +38,39 @@ section {
     max-width: 65rem;
     margin: 2rem;
     padding: 2rem;
+    background-color: rgb(90, 90, 90);
     
 }
 .card {
-    height: 360px;
-    width: 380px;
+    height: 3ovh;
+    width: 25vw;
 
     border: 2px solid gray;
     margin: 20px;
     padding: 20px;
     border-radius: 4px;
     padding-bottom: 4px;
+    box-shadow: 2px 2px 5px rgb(212, 220, 221);
+
     
 }
 h3 {
     margin-top: 1px;
+}
+p{
+    color: rgb(185, 185, 199);
+    
+    padding-top: 2px;
+}
+.card img {
+    padding-right: 0.7vw;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgb(212, 220, 221);
+}
+
+.card h2{
+    color: black;
+    font-weight: 500;
 }
 
 
@@ -75,3 +93,11 @@ h3 {
     
 
 } */  
+@media screen and(max-width : 760px){
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

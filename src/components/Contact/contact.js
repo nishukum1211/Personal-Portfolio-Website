@@ -27,7 +27,6 @@ const Contact = () => {
       
       <div id="contact">
         <h1 className='contactPageTitle'>Contact Me</h1>
-        <p className='contactDesc'>Please fill out the form below to discuss any work opportunities.</p>
         <form className='contactForm' ref={form} onSubmit={sendEmail}>
      
           <input type='text' className='name' placeholder='Your Name' name='your_name' />
@@ -35,16 +34,17 @@ const Contact = () => {
           <textarea className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
           <button type='submit' value='Send' className='submitBtn'>Submit</button> 
 
-          <div className='Links'>
-            <img src={Facebookicon} alt="Facebook" className='Link' />
-            <img src={Twittericon} alt="Twitter" className='Link' />
-            <img src={Youtubeicon} alt="Youtube" className='Link' />
-            <img src={Instagramicon} alt="Instagram" className='Link' />
-          </div>
+          
           
        
         
         </form>
+        <div className='Links'>
+            <img src={Facebookicon} alt="Facebook" className='Link' />
+            <img src={Twittericon} alt="Twitter" className='Link' />
+            <img src={Youtubeicon} alt="Youtube" className='Link' />
+            <img src={Instagramicon} alt="Instagram" className='Link' />
+        </div>
        
       </div>
     </section>

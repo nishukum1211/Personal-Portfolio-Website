@@ -1,8 +1,7 @@
 .navbar {
-    background: rgb(30, 30, 30);
-    height: 5rem;
-    width: 150vw;
-    max-width: 100rem;
+    background: #484545;
+    height: 12vh;
+    width: 100vw;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -14,12 +13,20 @@
     margin-right: auto;
 }
 .logo {
-    margin-top: 1rem;
-    height: 4.3rem;
-    width: 5rem;
+
+    height: 9vh;
+    width: 6vw;
+}
+.desktopMenu{
+    text-align: center;
+    align-items: center;
+    height: 10vh;
+    width: 50vw;
+    margin-top: 6vh;
+
 }
 .desktopMenuListItem {
-    margin: 1rem;
+    margin: 1vw;
     cursor: pointer;
 }
 .desktopMenuListItem:hover {
@@ -42,13 +49,14 @@
     border: none;
     padding: 0 1rem;
     border-radius: 2rem;
-    height: 3rem;
+    height: 6vh;
+    
 }
 .desktopMenuImg {
     object-fit: cover;
-    height: 3rem;
-    width: 1rem;
-    margin: 1rem;
+    height: 4vh;
+    width: 2.5vw;
+
 }
 .active {
     color: yellow;
@@ -56,8 +64,8 @@
     border-bottom: 3px solid yellow;
 }
 #mobMenu {
-    height: 2rem;
-    width: 2rem;
+    height: 4vh;
+    width: 2vw;
     
 }
 .navMenu {
@@ -69,7 +77,7 @@
     flex-direction: column;
     padding: 0.5rem;
     height: fit-content;
-    min-width: 15rem;
+    min-width: 15vw;
     background: rgb(40, 40, 40);
     border-radius: 1rem;
 
@@ -80,16 +88,25 @@
     margin: 0.25rem;
     background: rgb(30, 30, 30);
 }
-@media screen and(max-width : 412px){
 
-    .desktopMenu {
-        display: inline;
-        object-fit: cover;
-        margin-right: 0.1rem;
+@media screen and(max-width : 575px){
+    .desktopMenuListItem {
+        margin: 0.5vw;
+        cursor: pointer;
+        
     }
-   
-    .mobMenu {
-        margin-right: 0;
-        margin-left: 0.5rem;
-    }
+
+    
 }
+@media screen and(max-width : 453px){
+    .desktopMenuListItem{
+        font-weight: 0.5vw;
+    }
+    
+
+    
+}
+
+
+  
+ 

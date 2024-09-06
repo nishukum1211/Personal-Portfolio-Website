@@ -1,7 +1,6 @@
 #skills {
     overflow: hidden;
-    width: 150vw;
-    max-width: 65rem;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,12 +21,12 @@
 .skillDes {
     font-weight: 400;
     font-size: 1rem;
-    max-width: 50rem;
+    max-width: 45rem;
     padding: 0 2rem;
 }
 .skillBars {
     margin: 1.5rem;
-    width: 100vw;
+    width: 70vw;
     max-width: 80%;
     text-align: left;
 }
@@ -53,8 +52,10 @@
 
     #skills {
         margin-right: 0.5rem;
-        width: 50vw;
-        margin-left: 15;
+        max-width: 100rem;
+        margin-left: 15rem;
+        
+
 
 
     }
