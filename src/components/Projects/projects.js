@@ -47,7 +47,7 @@ const Projects = () => {
                     cards.map((card, i) => (
                     <div key={i} className='card'>
                     <h2>{card.title}</h2><br />
-                    <img src={card.imgsrc} alt=""  width="300" height="250"/>
+                    <img src={card.imgsrc} alt=""  width="260" height="250"/>
                     
                     <p>{card.text}</p>
 
