@@ -95,6 +95,7 @@ import './navbar.css';
 import logo from '../../assets/React-logo.png';
 import contactImg from '../../assets/contact.jpg';
 import { Link } from 'react-scroll';
+
 import menu from '../../assets/menu7.png';
 
 const Navbar = () => {
